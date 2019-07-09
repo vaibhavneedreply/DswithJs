@@ -1,0 +1,32 @@
+Big O:-
+
+What good code is?
+               - Readable
+               - Scalable
+                  - Speed
+                  - Memory
+
+O(n) --> Linear Time --> if input increases number of operation will increases by the same amount
+   eg:- findNemo
+
+O(1) --> Constant Time
+
+O(2^2) --> Quadratic
+
+BIG O rules:-
+ - Worst case :- BigO Always care about what is worst case scenario (Worst case, best case)
+ - Remove Constants:- remove number because we cares about scall
+ - Diff terms of inputs :- nested = '*', diff = '+'
+ - Drop Non Dominants:- remove Dominants because we cares about scall
+
+* We just care about importent ones remove all unsignificants ones
+
+3 Pillars of programming
+  - Readable
+  - Memory (Space Complexity)
+  - Speed (Time Complexity)
+
+
+Space Complexity :- When any programm execute it have two ways to remember things:-
+                    - heap:- Where we usually store variables
+                    - stack:- Where we keep track of function call
